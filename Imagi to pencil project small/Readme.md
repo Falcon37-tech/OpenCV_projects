@@ -108,10 +108,8 @@ python main.py
 ## 📷 Example Output
 
 <p align="center">
-  <img src="Imagi to pencil project small/joke.jpeg
-" width="300"/>
-  <img src="<img width="627" height="415" alt="sketch" src="https://github.com/user-attachments/assets/e4008ab8-05f3-4dff-b0c2-e3508d5c8f32" />
-K" width="300"/>
+  <img src="Imagi to pencil project small/joke.jpeg" width="300"/>
+  <img src="Imagi to pencil project small/sketch.png" width="300"/>
 </p>
 
 ---

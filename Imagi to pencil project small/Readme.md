@@ -117,6 +117,134 @@ python main.py
 
 ---
 
+# ✏️ Image to Pencil Sketch using OpenCV
+
+Convert a normal image into a realistic pencil sketch using Python and OpenCV.
+
+---
+
+## 📸 Demo
+
+### 🖼️ Original Image
+
+<p align="center">
+  <img src="images/joke.jpeg" width="400"/>
+</p>
+
+### ✏️ Pencil Sketch Output
+
+<p align="center">
+  <img src="images/sketch.png" width="400"/>
+</p>
+
+---
+
+## 📌 Features
+
+* Convert images into pencil sketches
+* Fast and efficient processing
+* Beginner-friendly project
+* Works in VS Code / local system
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* OpenCV (`cv2`)
+* NumPy
+
+---
+
+## 📂 Project Structure
+
+```
+Image-to-Pencil-Sketch/
+│── main.py
+│── images/
+│     ├── joke.jpeg
+│     ├── sketch.png
+│     ├── grey.png
+│     ├── blur.png
+│── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+```
+git clone https://github.com/your-username/image-to-pencil-sketch.git
+cd image-to-pencil-sketch
+pip install opencv-python numpy
+```
+
+---
+
+## ▶️ Usage
+
+```python
+image = cv2.imread("images/joke.jpeg")
+```
+
+```
+python main.py
+```
+
+---
+
+## 🧠 How It Works
+
+### 1. Grayscale
+
+<p align="center">
+  <img src="images/grey.png" width="300"/>
+</p>
+
+### 2. Inversion
+
+<p align="center">
+  <img src="images/inverted.png" width="300"/>
+</p>
+
+### 3. Gaussian Blur
+
+<p align="center">
+  <img src="images/blur.png" width="300"/>
+</p>
+
+### 4. Final Sketch
+
+<p align="center">
+  <img src="images/sketch.png" width="300"/>
+</p>
+
+---
+
+## 📷 Example Output
+
+<p align="center">
+  <img src="images/joke.jpeg" width="300"/>
+  <img src="images/sketch.png" width="300"/>
+</p>
+
+---
+
+## 🚀 Future Improvements
+
+* Add GUI (upload image)
+* Save output automatically
+* Multiple sketch styles
+
+---
+
 ## 👨‍💻 Author
 
+Kumar, Pujayant
+*One of a Kind!*
+
+
+## 👨‍💻 Author
+Kumar, Pujayant
+-One of a Kind! :)
 

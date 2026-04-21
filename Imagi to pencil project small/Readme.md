@@ -79,8 +79,7 @@ python main.py
 ### 1. Grayscale
 
 <p align="center">
-  <img src="<img width="627" height="415" alt="grey" src="https://github.com/user-attachments/assets/bf2dc212-5e9c-4795-9201-591ded1d8879" />
-" width="300"/>
+  <img src="Imagi to pencil project small/grey.png" width="300"/>
 </p>
 
 ### 2. Inversion
@@ -92,15 +91,13 @@ python main.py
 ### 3. Gaussian Blur
 
 <p align="center">
-  <img src="<img width="627" height="415" alt="blur" src="https://github.com/user-attachments/assets/9945c912-1e3d-45d2-a227-f526bc41fa7e" />
-" width="300"/>
+  <img src="Imagi to pencil project small/blur.png" width="300"/>
 </p>
 
 ### 4. Final Sketch
 
 <p align="center">
-  <img src="<img width="627" height="415" alt="sketch" src="https://github.com/user-attachments/assets/da0c2b26-908d-42e6-a87e-e5b9cbedc923" />
-" width="300"/>
+  <img src="Imagi to pencil project small/sketch.png" width="300"/>
 </p>
 
 ---

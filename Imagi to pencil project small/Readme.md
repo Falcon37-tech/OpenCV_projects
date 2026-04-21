@@ -1,67 +1,122 @@
-✏️ Image to Pencil Sketch using OpenCV
+# ✏️ Image to Pencil Sketch using OpenCV
 
 Convert a normal image into a realistic pencil sketch using Python and OpenCV.
 
-🖼️ Original Image
+---
 
-<img width="1024" height="897" alt="joke" src="https://github.com/user-attachments/assets/47ccf4e5-f200-45bd-b75a-ee3334ee552e" />
+## 📸 Demo
 
-✏️ Pencil Sketch Output
+### 🖼️ Original Image
 
-<img width="627" height="415" alt="sketch" src="https://github.com/user-attachments/assets/0c1c3c21-2a7b-460b-b375-8e1406d13e13" />
+<p align="center">
+  <img src="PASTE_YOUR_ORIGINAL_IMAGE_LINK_HERE" width="400"/>
+</p>
 
-📌 Features
-Convert images into pencil sketches
-Fast and efficient processing
-Beginner-friendly project
-Works in VS Code / local system
-🛠️ Technologies Used
-Python
-OpenCV (cv2)
-NumPy
-📂 Project Structure
+### ✏️ Pencil Sketch Output
+
+<p align="center">
+  <img src="PASTE_YOUR_SKETCH_IMAGE_LINK_HERE" width="400"/>
+</p>
+
+---
+
+## 📌 Features
+
+* Convert images into pencil sketches
+* Fast and efficient processing
+* Beginner-friendly project
+* Works in VS Code / local system
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* OpenCV (`cv2`)
+* NumPy
+
+---
+
+## 📂 Project Structure
+
+```
 Image-to-Pencil-Sketch/
 │── main.py
 │── images/
 │     ├── original.png
 │     ├── sketch.png
 │── README.md
-⚙️ Installation
+```
+
+---
+
+## ⚙️ Installation
+
+```
 git clone https://github.com/your-username/image-to-pencil-sketch.git
 cd image-to-pencil-sketch
 pip install opencv-python numpy
-▶️ Usage
+```
 
+---
+
+## ▶️ Usage
+
+```python
 image = cv2.imread("images/original.png")
+```
+
+```
 python main.py
+```
 
-🧠 How It Works
+---
 
-Convert image to grayscale
-<img width="627" height="415" alt="grey" src="https://github.com/user-attachments/assets/b54b85de-8daf-45a3-92c2-d1074fd84a77" />
+## 🧠 How It Works
 
-Invert grayscale image
-<img width="627" height="415" alt="gussainscale" src="https://github.com/user-attachments/assets/ce1668c2-14ed-496a-a37c-94bbcf187982" />
+### 1. Grayscale
 
-Apply Gaussian blur
-<img width="627" height="415" alt="blur" src="https://github.com/user-attachments/assets/85dc5906-3b9d-414f-bd7d-d8b88770f6ee" />
+<p align="center">
+  <img src="PASTE_GRAY_IMAGE_LINK" width="300"/>
+</p>
 
-Blend images to create sketch effect
-<img width="627" height="415" alt="sketch" src="https://github.com/user-attachments/assets/70742037-5d17-4903-84df-bcc62341970f" />
+### 2. Inversion
 
+<p align="center">
+  <img src="PASTE_INVERTED_IMAGE_LINK" width="300"/>
+</p>
 
-📷 Example Output
-Original	Sketch
+### 3. Gaussian Blur
 
-	
-<img width="627" height="415" alt="Screenshot 2026-04-21 164631" src="https://github.com/user-attachments/assets/e28431d2-6c22-4f67-bbff-9bd674b802c6" />        <img width="627" height="415" alt="sketch" src="https://github.com/user-attachments/assets/50f3d46d-f32a-488b-8486-6cac75ecc9c0" />
+<p align="center">
+  <img src="PASTE_BLUR_IMAGE_LINK" width="300"/>
+</p>
 
+### 4. Final Sketch
 
+<p align="center">
+  <img src="PASTE_FINAL_SKETCH_LINK" width="300"/>
+</p>
 
+---
 
+## 📷 Example Output
 
+<p align="center">
+  <img src="PASTE_ORIGINAL_IMAGE_LINK" width="300"/>
+  <img src="PASTE_SKETCH_IMAGE_LINK" width="300"/>
+</p>
 
-🚀 Future Improvements
-Add GUI (upload image)
-Save output automatically
-Multiple sketch styles
+---
+
+## 🚀 Future Improvements
+
+* Add GUI (upload image)
+* Save output automatically
+* Multiple sketch styles
+
+---
+
+## 👨‍💻 Author
+
+Kumar ji

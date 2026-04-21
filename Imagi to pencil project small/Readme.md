@@ -9,13 +9,15 @@ Convert a normal image into a realistic pencil sketch using Python and OpenCV.
 ### 🖼️ Original Image
 
 <p align="center">
-  <img src="PASTE_YOUR_ORIGINAL_IMAGE_LINK_HERE" width="400"/>
+  <img src="<img width="627" height="415" alt="Screenshot 2026-04-21 164631" src="https://github.com/user-attachments/assets/98302b85-474d-4af8-b8f5-9e6c66e9b3ff" />
+" width="400"/>
 </p>
 
 ### ✏️ Pencil Sketch Output
 
 <p align="center">
-  <img src="PASTE_YOUR_SKETCH_IMAGE_LINK_HERE" width="400"/>
+  <img src="<img width="627" height="415" alt="sketch" src="https://github.com/user-attachments/assets/5bd6c98f-7ad5-4625-aa1f-e6dc09926a5a" />
+" width="400"/>
 </p>
 
 ---
@@ -77,7 +79,8 @@ python main.py
 ### 1. Grayscale
 
 <p align="center">
-  <img src="PASTE_GRAY_IMAGE_LINK" width="300"/>
+  <img src="<img width="627" height="415" alt="grey" src="https://github.com/user-attachments/assets/bf2dc212-5e9c-4795-9201-591ded1d8879" />
+" width="300"/>
 </p>
 
 ### 2. Inversion
@@ -89,13 +92,15 @@ python main.py
 ### 3. Gaussian Blur
 
 <p align="center">
-  <img src="PASTE_BLUR_IMAGE_LINK" width="300"/>
+  <img src="<img width="627" height="415" alt="blur" src="https://github.com/user-attachments/assets/9945c912-1e3d-45d2-a227-f526bc41fa7e" />
+" width="300"/>
 </p>
 
 ### 4. Final Sketch
 
 <p align="center">
-  <img src="PASTE_FINAL_SKETCH_LINK" width="300"/>
+  <img src="<img width="627" height="415" alt="sketch" src="https://github.com/user-attachments/assets/da0c2b26-908d-42e6-a87e-e5b9cbedc923" />
+" width="300"/>
 </p>
 
 ---
@@ -103,8 +108,10 @@ python main.py
 ## 📷 Example Output
 
 <p align="center">
-  <img src="PASTE_ORIGINAL_IMAGE_LINK" width="300"/>
-  <img src="PASTE_SKETCH_IMAGE_LINK" width="300"/>
+  <img src="<img width="627" height="415" alt="Screenshot 2026-04-21 164631" src="https://github.com/user-attachments/assets/8c72b022-d373-4f83-964b-0a979b05aee3" />
+" width="300"/>
+  <img src="<img width="627" height="415" alt="sketch" src="https://github.com/user-attachments/assets/e4008ab8-05f3-4dff-b0c2-e3508d5c8f32" />
+K" width="300"/>
 </p>
 
 ---
@@ -119,4 +126,4 @@ python main.py
 
 ## 👨‍💻 Author
 
-Kumar ji
+

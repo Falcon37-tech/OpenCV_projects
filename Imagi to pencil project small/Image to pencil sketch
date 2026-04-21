@@ -1,0 +1,34 @@
+import cv2
+
+image = cv2.imread(r"E:\DeepLearProject\Imagi to pencil project small\joke.jpeg")
+
+if image is None:
+    print("Image not loaded")
+    exit()
+
+# Resize
+original_image = cv2.resize(image, (500, 300))
+cv2.imshow("Original", original_image)
+
+# Gray
+gray_image = cv2.cvtColor(original_image, cv2.COLOR_BGR2GRAY)
+cv2.imshow("Gray", gray_image)
+
+# Invert
+inverted_gray_image = cv2.bitwise_not(gray_image)
+cv2.imshow("Inverted", inverted_gray_image)
+
+# Blur
+inverted_blur_image = cv2.GaussianBlur(inverted_gray_image, (21, 21), 0)
+cv2.imshow("Blur", inverted_blur_image)
+
+# Sketch function
+def dodgeV2(image, mask):
+    return cv2.divide(image, 255 - mask, scale=256)
+
+# Final sketch
+final_pencil_sketch = dodgeV2(gray_image, inverted_blur_image)
+cv2.imshow("Pencil Sketch", final_pencil_sketch)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()

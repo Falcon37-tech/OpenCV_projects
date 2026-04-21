@@ -9,7 +9,7 @@ Convert a normal image into a realistic pencil sketch using Python and OpenCV.
 ### 🖼️ Original Image
 
 <p align="center">
-  <img src="<img width="627" height="415" alt="Screenshot 2026-04-21 164631" src="https://github.com/user-attachments/assets/98302b85-474d-4af8-b8f5-9e6c66e9b3ff" />
+  <img src="Imagi to pencil project small/joke.jpeg
 " width="400"/>
 </p>
 
@@ -108,7 +108,7 @@ python main.py
 ## 📷 Example Output
 
 <p align="center">
-  <img src="<img width="627" height="415" alt="Screenshot 2026-04-21 164631" src="https://github.com/user-attachments/assets/8c72b022-d373-4f83-964b-0a979b05aee3" />
+  <img src="Imagi to pencil project small/joke.jpeg
 " width="300"/>
   <img src="<img width="627" height="415" alt="sketch" src="https://github.com/user-attachments/assets/e4008ab8-05f3-4dff-b0c2-e3508d5c8f32" />
 K" width="300"/>
